@@ -25,6 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "jp.co.funseek.flutter_app_badge_control"
     compileSdkVersion 31
 
     compileOptions {
